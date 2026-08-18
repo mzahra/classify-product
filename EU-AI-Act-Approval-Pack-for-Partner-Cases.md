@@ -119,3 +119,26 @@ Comparing my inferred classifications against Nevena's intended answer key, all 
 ## Closing note
 
 Across all four cases, the pattern worth remembering is that the label a client puts on their own tool ("teaching support tool," "maintenance alert," "customer assistant") is not the classification, what the system actually does with the data is. Two cases here (2 and 3) are approvable but only once a specific, concrete condition is met. Case 4 shows that a well-meaning goal, helping teachers support students, does not excuse a banned method of getting there. The client discussion confirmed all four calls were right, which is the outcome this exercise is meant to test, whether the classification holds up once the real answer is on the table, not just on paper.
+
+## Stretch: implementation roadmap for Case 2, hospital triage assistant
+
+This is the strongest high-risk case in the pack, so here is what it would take to actually get it live.
+
+**What the provider needs before market placement:**
+- A risk management system covering the full lifecycle, not just launch.
+- Technical documentation showing intended purpose, design, and training data.
+- Accuracy and robustness results broken down by patient subgroup (age, sex, condition type), not one aggregate number, since a triage error can land unevenly across groups.
+- Human oversight built into the interface itself, so a clinician sees the reasoning, not only a score.
+- Registration in the EU high-risk database and a declaration of conformity before the software reaches any hospital.
+
+**What the deployer (the hospital) needs before first use:**
+- A fundamental rights impact assessment specific to its own emergency department, not a generic one copied from the vendor.
+- Named staff responsible for oversight, trained on when and how to override the AI, with that authority made explicit rather than assumed.
+- A logging setup that records every AI suggestion next to the clinician's final call, from day one, not added retroactively.
+- An incident reporting path to the provider and the relevant authority if the system misses a serious case.
+
+**What evidence to ask the vendor for:**
+- Validation results by patient subgroup, not just overall accuracy.
+- A clear description of what the system does when it is uncertain, does it flag low confidence or just output a number.
+- Documented failure modes and limitations, in plain language, not buried in a technical appendix.
+- Confirmation that the training population resembles this hospital's actual patient mix, a model trained elsewhere can behave differently here.
