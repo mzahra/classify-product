@@ -93,6 +93,29 @@ Two things stand out across all four reviews. First, none of these clients descr
 
 **Redesign option:** Remove all inference of internal state (attention, emotion, engagement) from video or audio. Replace it with objective, non-biometric activity data only: attendance, camera and mic on-off time, chat and poll participation counts, assignment completion. Teachers keep making the judgment calls about which students need support, the system reports what happened, not what a student was feeling or how attentive they looked.
 
+## Client discussion and final sign-off
+
+I presented this approval pack to Nevena, acting as the client, and she then revealed her private answer key for the four cases.
+
+| Case | My inferred category | Nevena's intended category | Match | Client response |
+|---|---|---|---|---|
+| 1, predictive maintenance | Minimal risk | Minimal risk | Yes | Accepted |
+| 2, hospital triage | High-risk | High-risk | Yes | Accepted |
+| 3, insurance chatbot | Limited risk / transparency | Limited risk / transparency | Yes | Accepted |
+| 4, classroom analytics | Prohibited | Prohibited | Yes | Accepted |
+
+All four inferred categories matched the intended answer key, and Nevena accepted every decision as presented, including the conditions attached to Case 2 (real human oversight, FRIA, documentation) and Case 3 (AI disclosure), and the redesign path offered for Case 4. No case was challenged or sent back for a different redesign.
+
+**What changed after the client discussion:** Nothing about the classifications or decisions changed, since all four were confirmed correct and accepted as proposed. What the conversation did confirm is that the four briefs carried enough real signal, the data used, who was affected, and whether a human review was genuine, to reach the right call without being told the category upfront. That is a useful check on the briefs themselves, not just on the analysis: a hidden scenario that leads a reviewer to the intended answer through the facts, rather than through an obvious label, is doing its job.
+
+## Debrief
+
+Comparing my inferred classifications against Nevena's intended answer key, all four matched exactly. A few things stood out:
+
+- **Where the hidden scenario worked well:** All four cases. Each brief held onto its legal signal without stating the category outright, for example Case 2 never says "high-risk," but naming emergency triage and admission data was enough to place it under Annex III, and Case 4 called itself a "teaching support tool" while still describing exactly the kind of biometric inference Article 5 bans.
+- **Where it was too vague:** None of the four needed a coin flip, each had a specific detail that anchored the classification, the type of data used, who the output affects, and how real the human review step was. That suggests the briefs were pitched at the right difficulty, realistic and not textbook, but not so vague that the category was guesswork.
+- **How the recommendation would change after the client conversation:** It would not change on the classification side, since everything was confirmed. The conversation did shift the launch conditions from a proposal into something Nevena has now agreed to act on, meaning the next real step for her is producing the artifacts flagged in each case (the FRIA and logging policy for Case 2, the disclosure notice for Case 3, the redesign brief for Case 4), not re-arguing the category.
+
 ## Closing note
 
-Across all four cases, the pattern worth remembering is that the label a client puts on their own tool ("teaching support tool," "maintenance alert," "customer assistant") is not the classification, what the system actually does with the data is. Two cases here (2 and 3) are approvable but only once a specific, concrete condition is met. Case 4 shows that a well-meaning goal, helping teachers support students, does not excuse a banned method of getting there.
+Across all four cases, the pattern worth remembering is that the label a client puts on their own tool ("teaching support tool," "maintenance alert," "customer assistant") is not the classification, what the system actually does with the data is. Two cases here (2 and 3) are approvable but only once a specific, concrete condition is met. Case 4 shows that a well-meaning goal, helping teachers support students, does not excuse a banned method of getting there. The client discussion confirmed all four calls were right, which is the outcome this exercise is meant to test, whether the classification holds up once the real answer is on the table, not just on paper.
